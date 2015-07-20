@@ -1,0 +1,40 @@
+{
+  "name": "audio-coder",
+  "version": "1.0.0",
+  "description": "encode or decode audio ndarrays into buffers and vise versa",
+  "main": "index.js",
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "ndarray": "^1.0.18",
+    "protocol-buffers": "^3.1.2"
+  },
+  "devDependencies": {
+    "tape": "^4.0.1"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/audio-coder.git"
+  },
+  "keywords": [
+    "audio",
+    "ndarray",
+    "binary",
+    "buffer",
+    "pcm",
+    "raw"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/audio-coder/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/audio-coder#readme"
+}

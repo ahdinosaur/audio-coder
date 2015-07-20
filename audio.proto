@@ -1,0 +1,7 @@
+message Audio {
+  repeated int32 shape = 1;
+  repeated int32 stride = 2;
+  repeated float data = 3 [packed=true];
+  optional int32 offset = 4;
+  extensions 5 to max;
+}
